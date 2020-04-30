@@ -1,6 +1,8 @@
 import React from 'react'
 import Header from "./components/header/header"
 import "./app.css"
+import {} from "./pages/landing-page/landing.page.style"
+import Delete from "./delete"
 
 class App extends React.Component{
     constructor(){
@@ -11,7 +13,7 @@ class App extends React.Component{
         return(
             <div>
                 <Header/>
-                <h1>App connected</h1>
+                <Delete/>
             </div>
         )
     }
