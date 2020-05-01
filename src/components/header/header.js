@@ -7,9 +7,9 @@ class Header extends React.Component{
     render(){
         return(
             <HeaderWrapper>
-                 <HomeLogo><a href="">GTG</a></HomeLogo>
+                 <HomeLogo><a href="/">GTG</a></HomeLogo>
                 <SignUpButton> 
-                    <a href="">Sign-up/Sign-in</a>
+                    <a href="./sign-in-sign-up">Sign-up/Sign-in</a>
                 </SignUpButton>
             </HeaderWrapper>
         )
