@@ -1,5 +1,5 @@
 import React from "react"
-import {Wrapper,OuterSquare} from "./signInSignUp.style"
+import {SignIn,Wrapper,SignUp} from "./signInSignUp.style"
 
 class SignInSignUp extends React.Component{
     constructor(){
@@ -9,7 +9,7 @@ class SignInSignUp extends React.Component{
     render(){
         return(
             <Wrapper>
-            <OuterSquare>
+            <SignIn>
                 <form>
                 <span>E-mail</span><br/>
                     <input type="text" name="email"/><br/>
@@ -17,8 +17,8 @@ class SignInSignUp extends React.Component{
                     <input type="password" name="password"/><br/>
                 <input type="submit" value="Sign In"></input>
                 </form>
-            </OuterSquare>
-            <OuterSquare>
+            </SignIn>
+            <SignUp>
             <form>
                 <span>UserName</span><br/>
                     <input type="text" name="uName"/><br/>
@@ -28,9 +28,9 @@ class SignInSignUp extends React.Component{
                     <input type="password" name="password"/><br/>
                 <span> Confirm password:</span> <br/>
                     <input type="password" name="cPassword"/><br/>
-                <input type="submit" value="Sign In"/>
+                <input type="submit" value="Sign Up"/>
                 </form>
-            </OuterSquare>
+            </SignUp>
                 
             </Wrapper>
         )
